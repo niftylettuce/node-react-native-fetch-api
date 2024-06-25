@@ -67,7 +67,7 @@ Modern [fetch-based][fetch] alternative to [axios][]/[superagent][]/[request][].
 1. Load the package via `<script>` tag (note you will need to polyfill with [required features](#required-features)):
 
 ```html
-<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=es6,Array.from,Object.getOwnPropertyDescriptors,Object.getOwnPropertySymbols,Promise,Promise.race,Promise.reject,Promise.resolve,Reflect,Symbol.for,Symbol.iterator,Symbol.prototype,Symbol.species,Symbol.toPrimitive,Symbol.toStringTag,Uint8Array"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6,Array.from,Object.getOwnPropertyDescriptors,Object.getOwnPropertySymbols,Promise,Promise.race,Promise.reject,Promise.resolve,Reflect,Symbol.for,Symbol.iterator,Symbol.prototype,Symbol.species,Symbol.toPrimitive,Symbol.toStringTag,Uint8Array"></script>
 <script src="https://unpkg.com/frisbee"></script>
 <script type="text/javascript">
   (function() {
